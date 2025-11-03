@@ -1,0 +1,17 @@
+site_name: Apuntes Sistemas informáticos
+site_url: https://jogonar-rgb.github.io/Sistemas_informaticos/
+
+
+nav:
+  - Home: index.md
+  - Apuntes:
+    - Redes: redes.md
+    - Hardware: hardware.md
+
+
+theme: readthedocs
+
+
+
+extra_css:
+  - css/extra.css
