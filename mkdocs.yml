@@ -5,28 +5,47 @@ site_url: https://jogonar-rgb.github.io/Sistemas_informaticos/
 nav:
   - Home: index.md
   - Apuntes:
-    - Redes: redes.md
     - Hardware: hardware.md
+    - Scripts: scripts.md
+    - Diagramas: diagramas.md
+
 
 markdown_extensions:
   - admonition
   - pymdownx.superfences
-
-
-#theme: readthedocs
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      linenums: true
 
 theme:
   name: 'material'
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Canvia a mode oscur
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Canvia a mode clar
   features:
     - navigation.sections
     - navigation.top
     - content.code.copy
     - pymdownx.snippets
+    
   icon:
     repo: 'fontawesome/brands/github'
   font:
     text: 'Roboto, sans-serif'
     code: 'Courier New, monospace'
+
+
 
 plugins:
   - search
@@ -34,8 +53,9 @@ plugins:
 #  - page-to-pdf
 
 
+
+
 extra_css:
   - css/styless.css
 
-#extra_templates:
-#  - docs/index.html
+
