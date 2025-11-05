@@ -102,12 +102,14 @@ Desde la aparición del 486, las placas base incorporan un zócalo que permite i
 
 Los diferentes micros no se conectan de igual manera a las placas:
 
-* Socket, con mecanismo ZIF (Zero Insertion Force). En ellas el procesador se inserta y se retire sin necesidad de ejercer alguna presión sobre él. Al levantar la palanquita que hay al lado se libera el microprocesador, siendo extremadamente sencilla su extracción. Estos zócalos aseguran la actualización del microprocesador. Antiguamente existía la variedad LIF (Low Insertion Force), que carecía de dicha palanca. Hasta hace poco se utilizaba en procesadores AMD básicamente. ![Socket ZIF](./img/zif.png) **Socket ZIF** 
+* Socket, con mecanismo ZIF (Zero Insertion Force). En ellas el procesador se inserta y se retire sin necesidad de ejercer alguna presión sobre él. Al levantar la palanquita que hay al lado se libera el microprocesador, siendo extremadamente sencilla su extracción. Estos zócalos aseguran la actualización del microprocesador. Antiguamente existía la variedad LIF (Low Insertion Force), que carecía de dicha palanca. Hasta hace poco se utilizaba en procesadores AMD básicamente.
+![Socket ZIF](./img/zif.png) **Socket ZIF** 
 * Slot A / Slot 1 /Slot 2. Existieron durante una generación importante de PCs (entre 1997 y 2000 aproximadamente) reemplazando a los sockets. Es donde se conectan respectivamente los primeros procesadores Athlon de AMD / los procesadores Pentium II y primeros Pentium III y los procesadores Xeon de Intel dedicados a servidores de red. Todos ellos son cada vez más obsoletos. El modo de insertarlos es a similar a una tarjeta gráfica o de sonido, ayudándonos de dos guías de plástico insertadas en la placa base. ![SLot A](./img/Slot.png) **Slot A**
 * En las placas base más antiguas el micro iba soldado, de forma que no podía actualizarse. Hoy día esto no se ve en lo referente a los microprocesadores de PC.
 * Socket LGA: La matriz de contactos en rejilla o LGA (Land Grid Array) es una interfaz de conexión a nivel físico para microprocesadores y circuitos integrados. La interfaz LGA no presenta ni pines ni esferas, la conexión de la que dispone el chip es únicamente una matriz de superficies conductoras o contactos chapadas en oro que hacen contacto con la placa base a través del zócalo de la CPU. Su alineación de pines es vertical y horizontal. Esta interfaz se beneficia por reducir el proceso de fabricación, amén de unas características térmicas, eléctricas y físicas superiores a las interfaces de chips previamente usados. Actualmente se utiliza en procesadores Intel y en los últimos procesadores AMD.
 
  ![Socket LGA](./img/LGA.png) **Socket LGA**
+
 * AMD:
   * Socket AM4. Zócalo de 1331 contactos para procesadores AMD Ryzen de hasta 5ª generación.
  
@@ -211,10 +213,11 @@ Existen muchos tipos de interfaces diferentes y solo este parte daría para un t
 
 * **La Interfaz Serial ATA (SATA)** se diseñó para sobrepasar los límites de la interfaz Parallel ATA (IDE). La interfaz Serial ATA es compatible con todos los sistemas operativos actuales y ha sustituido a la interfaz PATA. Gracias a esta interfaz, podremos obtener mayores velocidades (inicialmente hasta 150 MBps, actualmente hasta los 600MBps), crear discos duros de mayor capacidad y reducir el consumo eléctrico de las unidades. Además, el cable mediante el cual la unidad se conecta a la placa base es mucho más pequeño (tan sólo tiene siete conectores), lo que ayuda a mejorar la ventilación y es menos sensible a las interferencias, por lo que se podrán crear cables más largos sin ningún problema.
   
-![Conector SATA](/img/SATA.png)**Conector SATA placa base**
+![Conector SATA](./img/SATA.png)**Conector SATA placa base**
+
 * **El Universal Serial Bus (USB)** es un estándar que permite conectar dispositivos Plug & Play externos al ordenador. USB elimina la necesidad de instalar tarjetas que ocupan valiosas ranuras, y reconfigurar el sistema. Esto ahorra importantes recursos, como las interrupciones (IRQs), ya que sólo necesita una interrupción aunque estén conectados varios dispositivos al mismo USB. Los ordenadores equipados con USB permiten la configuración inmediata de los dispositivos que utilizan esta interfaz nada más ser conectados, sin necesidad de apagar o reiniciar el sistema.
 
-![Conector USB](/img/USB.png)**Conector USB placa base**
+![Conector USB](./img/USB.png)**Conector USB placa base**
 
 A diferencia de los puertos paralelo y serie, los conectores USB son pequeños y no necesitan ser sujetados con tornillos. USB constituye una interfaz de 12 Mbps en su versión 1.1 a través de una conexión de cuatro hilos dentro de un cable. El bus soporta hasta 127 dispositivos gracias a que se pueden formar redes de dispositivos a través de concentradores (hubs) de expansión que pueden estar en el ordenador o en otros dispositivos USB, como teclados y monitores; incluso, hay concentradores USB dedicados. Si bien esta capacidad es, en principio, impresionante, hay que considerar que todos los dispositivos tendrán que compartir el mismo ancho de banda de 12 Mbps. O sea, cada vez que se agrega un dispositivo a la cadena, el rendimiento se puede ver afectado.
 
@@ -224,11 +227,11 @@ La versión 2.0 del estándar USB es hasta 40 veces más rápido que el de la ve
 
 Ahora, USB 4 llega soportando 40 Gbps de ancho de banda, una cifra inmensa que supera con claridad la mayoría de necesidades. Recordemos que 40 gigabits son 5 gigabytes, así que tendríamos hasta 5GB/s de transferencia. En USB 4 no desaparece por completo la fragmentación de opciones, pero que tiene nombres de márketing muy claros: USB4 20Gbps y USB4 40Gbps. Lo más importante del estándar USB 4 es que se basa en Thunderbolt. De forma análoga a Thunderbolt se pueden aprovechar otros protocolos, como son el USB 3.2, el DisplayPort 1.4a (para conectar una pantalla por USB-C) y el PCI Express, con el que podríamos comprar tarjetas gráficas o un SSD NVMe externo, por ejemplo.
 
-![Versiones USB](/img/Versiones_USB.png)**Diferentes versiones de USB y sus características**
+![Versiones USB](./img/Versiones_USB.png)**Diferentes versiones de USB y sus características**
 
 * El conector **M.2** se ha diseñado para la conexión de dispositivos de almacenamiento masivo. Esta sustituyendo a la conexión SATA. Este conector es mucho más pequeño que el SATA no necesitamos cables para la conexión. Y los dispositivos que conectamos son mucho más pequeños, discos SSD, que los discos tradicionales. Teniendo múltiples ventajas respecto a estos. Esta conexión utiliza dos tipos de estándares de conexión: el SATAIII de 600 Gbps que no mejora en cuanto a velocidad al interfaz SATA tradicional (ocupa menos espacio, los discos duros son más pequeños, consumen menos energía, etc.) y la conexión NVMe o PCIEx4 que si mejora la velocidad de transferencia hasta los 4GBps y así aprovechamos mejor la tecnología de los discos SSD hasta alcanzar velocidades de lectura secuencial de hasta 3,5GBps y de escritura secuencial de 2,5GBps.
 
-![Conector M2](/img/M2.png)**Conector M2 en placa base**
+![Conector M2](./img/M2.png)**Conector M2 en placa base**
 
 ***g) El chipset***
 
