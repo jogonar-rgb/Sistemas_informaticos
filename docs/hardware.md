@@ -20,6 +20,9 @@ Acabando los 50, se introdujo un elemento revolucionario que cambiaría muchos a
 ![Transistor](./img/Transistor.png)  **Transistor vs. Válvula de vacio**     
 ![Primer transistor](./img/PrimerTransistor.png)  **Primer transistor**
 
+!!! info 
+    El primer transistor se desarrollo en los laboratorios Bell en 1947
+
 A finales de los 60 el transistor comienza a dar paso a los circuitos integrados, en los que los componentes llegan a extremos increíbles de microminiaturización, permitiendo ordenadores más y más compactos, potentes, seguros y baratos. Es la Tercera Generación, que también ve llegar los lenguajes de programación de alto nivel.
 
 ![Primer circuito integrado](./img/circuito%20integrado.png) **Primer circuito integrado**

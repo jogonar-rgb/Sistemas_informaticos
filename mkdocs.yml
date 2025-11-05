@@ -8,10 +8,34 @@ nav:
     - Redes: redes.md
     - Hardware: hardware.md
 
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
 
-theme: readthedocs
 
+#theme: readthedocs
+
+theme:
+  name: 'material'
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - pymdownx.snippets
+  icon:
+    repo: 'fontawesome/brands/github'
+  font:
+    text: 'Roboto, sans-serif'
+    code: 'Courier New, monospace'
+
+plugins:
+  - search
+  - with-pdf
+#  - page-to-pdf
 
 
 extra_css:
-  - css/extra.css
+  - css/styless.css
+
+#extra_templates:
+#  - docs/index.html
